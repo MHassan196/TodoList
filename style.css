@@ -13,10 +13,25 @@ body{
     background-color: #989898;
 }
 .container{
-   height: 450px;
-   width: 330px;
+   height: 550px;
+   width: 360px;
    border-radius: 10px;
    background-color: #fff;
    padding: 10px;
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+   overflow-y: auto;
 }
+.usertask{
+    width: 100%;
+    height: auto;
+    padding: 18px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #989898;
+    color: #fff;
+    font-size: 16px;
+}
+.usertask::placeholder{
+    color: #fff;
+}
+
