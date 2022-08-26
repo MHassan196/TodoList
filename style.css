@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #000000;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   height: 550px;
+   width: 360px;
+   border-radius: 10px;
+   background-color: #fff;
+   padding: 10px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+   overflow-y: auto;
+}
+.usertask{
+    width: 100%;
+    height: auto;
+    padding: 18px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(79, 79, 79);
+    color: #fff;
+    font-size: 16px;
+}
+.usertask::placeholder{
+    color: #fff;
+}
+ul li{
+    background: rgb(171, 238, 176);
+    color: #000000;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 30px;
+    position: relative;
+    list-style-type: none;
+}
+
+ul .fa-check, .fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-check{
+    right: 50px;
+    color: rgb(74, 165, 74);
+}
+
+ul .fa-trash{
+    right: 15px;
+    color: rgb(230, 88, 88);
+}
+ul .checked{
+    background: rgb(188, 188, 188);
+    color: #000000;
+    text-decoration: line-through;
+    transition: .2s;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.heading span{
+    color: rgb(74, 165, 74);
+}
+.para{
+    color: rgb(74, 165, 74);
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
