@@ -34,4 +34,29 @@ body{
 .usertask::placeholder{
     color: #fff;
 }
+ul li{
+    background: rgb(211, 170, 170);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 30px;
+    position: relative;
+}
 
+ul .fa-check, .fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-check{
+    right: 40px;
+    color: green;
+}
+
+ul .fa-trash{
+    right: 15px;
+    color: red;
+}
+ul .checked{
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .2s;
+}
